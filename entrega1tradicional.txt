@@ -1,0 +1,17 @@
+method astar:
+{'visited_nodes': 48, 'iterations': 48, 'max_fringe_size': 15, 'soluction_cost': 9}
+
+method greedy:
+{'visited_nodes': 22, 'iterations': 22, 'max_fringe_size': 14, 'soluction_cost': 9}
+
+method depth_first:
+{'visited_nodes': 24, 'iterations': 24, 'max_fringe_size': 15, 'soluction_cost': 23}
+
+method breadth_first:
+{'visited_nodes': 53, 'iterations': 53, 'max_fringe_size': 13, 'soluction_cost': 9}
+
+method limited_depth_first:
+{'visited_nodes': 280, 'iterations': 280, 'max_fringe_size': 11, 'soluction_cost': 11}
+
+
+
