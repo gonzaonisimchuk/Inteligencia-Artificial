@@ -35,19 +35,13 @@ class Bombillas(SearchProblem):
         return state == goal
 
     def cost(self, state1, action, state2):
-        cont = 0
-        for i in state2:
-            for x in i:
-                if x == 1:
-                    cont += 1
-        return cont
+        return 1
 
     def actions(self, state):
         acciones = []
         for anum, a in enumerate(state):
             for item, b in enumerate(a):
                 acciones.append((anum, item))
-        print 'ac', acciones
         return acciones
 
     def result(self, state, action):
